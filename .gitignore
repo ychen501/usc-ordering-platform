@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Claude Code
+.claude/
+
+# Frontend
+node_modules/
+frontend/build/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend
+.gradle/
+backend/build/
+backend/bin/
+backend/out/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
